@@ -1,6 +1,7 @@
 """
     streamlit run streamlit_BMI_Calc_v0-1.py
 """
+from PIL import Image, ImageTk
 import streamlit as st
 
 bmi_result = ''
