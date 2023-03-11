@@ -43,14 +43,9 @@ def calculate_bmi():
     return bmi_result
 
 
-##try:
-##    logo_image = Image.open('bmi2.jpg')
-##except FileNotFoundError as e:
-##    st.error('bmi2.jpg not found.')
-##    st.stop()
-##
-##with st.columns(3)[1]:
-##     st.image(logo_image)
+
+with st.columns(3)[1]:
+    st.image(logo_image)
 
 st.subheader('Enter your weight')
 weight_entry = st.text_input('Weight')
