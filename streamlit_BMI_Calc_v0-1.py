@@ -1,5 +1,5 @@
 """
-    streamlit run BMI_Calc_v1-1-streamlit3.py
+    streamlit run streamlit_BMI_Calc_v0-1.py
 """
 import tkinter as tk
 from PIL import Image, ImageTk
