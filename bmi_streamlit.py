@@ -42,10 +42,8 @@ def calculate_bmi():
 
     return bmi_result
 
-
-
 with st.columns(3)[1]:
-    st.image(logo_image)
+     st.image('bmi2.jpg')
 
 st.subheader('Enter your weight')
 weight_entry = st.text_input('Weight')
